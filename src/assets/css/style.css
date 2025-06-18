@@ -19,7 +19,7 @@
     --primary: rgb(248, 165, 179) ;
     --secondary: white;
     --alternative: rgb(7, 3, 3);
-    --tertiary: maroon;
+    --tertiary: rgb(248, 165, 179);
     --awesome: rgb(232, 37, 37);
     --mainBox-shadow: black;
     --shadow:var(--primary);
@@ -64,6 +64,13 @@
 :is(.navbar, footer){
     background-color: var(--tertiary);
 }
+ /* Navbar & footer transparency */
+/* :is(.navbar, footer) {
+    background-color: transparent !important;
+    box-shadow: none; 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+  } */
 
 /* Navbar */
 :is(.nav-link) {
@@ -80,7 +87,7 @@ a {
  .navbar a:hover {
     transform: scale(1.2);
     text-decoration: underline;
-    color: var(--primary); 
+    color: var(--alternative); 
 }
 
 .navbar-toggler {
@@ -96,7 +103,7 @@ a {
 .display-2{
     font-size: 3rem;
     font-weight: bold;
-    font-family: "Tiro Devanagari Hindi", serif;
+    /* font-family: "Tiro Devanagari Hindi", serif; */
 
 }
 
@@ -113,6 +120,61 @@ img{
 /* Logo */
 img[alt='logo'] {
     aspect-ratio: 1;
-    width: 5rem;
+    width: 6.3rem;
        
 }
+
+/* Animation for the Home tag */
+.home-1 {
+    opacity: 0; 
+    animation: fadeInTop 1s forwards; 
+  }
+  
+  @keyframes fadeInTop {
+    from {
+      opacity: 0;
+      transform: translateY(-100%); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .lead {
+    opacity: 0; 
+    animation: fadeInRight 1s forwards; 
+    
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* Animation for Landing Page */
+.image-1 {
+    overflow: hidden;
+  }
+  
+  .image-1{
+    opacity: 0; 
+    animation: fadeInLeft 1s forwards; 
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

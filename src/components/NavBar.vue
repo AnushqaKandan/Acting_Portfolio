@@ -29,10 +29,10 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#resume">Photos</a>
+              <a class="nav-link" href="#photos">Photos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#skills">Videos</a>
+              <a class="nav-link" href="#videos">Videos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact Info</a>
