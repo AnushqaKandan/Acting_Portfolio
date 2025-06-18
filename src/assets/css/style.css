@@ -9,4 +9,110 @@
 /* Custom variables */
 ::-webkit-scrollbar {
     display: none;
+  }
+  section{
+    scroll-margin-block: 6.7rem;
+}
+
+/*Custom Variable */
+:root {
+    --primary: rgb(248, 165, 179) ;
+    --secondary: white;
+    --alternative: rgb(7, 3, 3);
+    --tertiary: maroon;
+    --awesome: rgb(232, 37, 37);
+    --mainBox-shadow: black;
+    --shadow:var(--primary);
+}
+@property --top-left {
+    syntax:"<percentage>";
+    inherits: false;
+    initial-value:50%;
+}
+@property --top-right{
+    syntax: "<Percentage>";
+    inherits: false;
+    initial-value:50%;
+}
+@property --bottom-left{
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value:0%;
+}
+@property --bottom-right {
+    syntax: "<percentage>";
+    inherits: false;
+    initial-value:0%;
+}
+
+
+/* wrapper */
+:is(.wrapper){
+    grid-template-rows: auto minmax(100dvh, 100%) auto;
+    /* background-color: var(--primary); */
+}
+
+/* app */
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+  }
+
+  /*Navbar & footer*/
+:is(.navbar, footer){
+    background-color: var(--tertiary);
+}
+
+/* Navbar */
+:is(.nav-link) {
+    color: var(--secondary); 
+}
+  
+/* Navbar */
+a { 
+    transition: all .5s;
+ 
+
+ }
+
+ .navbar a:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+    color: var(--primary); 
+}
+
+.navbar-toggler {
+    border-color: var(--primary); 
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='pink' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+}
+ 
+
+/* Page Name Style */
+.display-2{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Tiro Devanagari Hindi", serif;
+
+}
+
+:is(#about, #resume, #skills, #projects, #testimonials, #contactinfo){
+    margin-block: 5rem;
+}
+
+/* Select all images */
+img{
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Logo */
+img[alt='logo'] {
+    aspect-ratio: 1;
+    width: 5rem;
+       
 }
