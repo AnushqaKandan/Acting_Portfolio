@@ -16,6 +16,9 @@
               </p>
           </div> 
        </div>
+       <div>
+        <h3>Certificates</h3>
+       </div>
       </div>
     </div>
 
@@ -23,18 +26,62 @@
       <div class="row">
           <h2 class="display-2">About</h2>
       </div>
-      <div class="row flex-column flex-md-row">
-       <div class="col image-1">
-          <img src="https://anushqakandan.github.io/All-images/Images/intro-bg.jpg " alt="profile" class="img-thumbnail border-5" loading="lazy">
-       </div>     
+</div>
+
+ <div class="container" id="photos">
+      <div class="row">
+          <h2 class="display-2">Photos</h2>
+      </div>
+       <div class="certi">
+              
+    <div class="img">
+        <div class="card cardAbout head">
+            <p class="text1">Head Girl</p>
+           <router-link to="/casual">
+             <button class="btn btn--primary">View</button> 
+           </router-link>
+
+        <p class="text2">
+           As Head Girl, I had the opportunity
+        </p>
+    </div>
+            
+    <div class="card cardAbout saiia">
+        <p class="text1">SAIIA</p>
+            <a href="https://anushqakandan.github.io/All-images/Images/saiia.jpg" target="_blank">
+              <button class="btn btn--primary">View</button>
+            </a>
+        <p class="text2">
+               I represented my school at the South African Institute of International Affairs
+        </p>
+   </div>
+
+    <div class="card cardAbout inter">
+        <p class="text1">Interfaith</p>
+           <a href="https://anushqakandan.github.io/All-images/Images/interfaith.jpg" target="_blank">
+                <button class="btn btn--primary">View</button>
+            </a>
+            <p class="text2">
+                I earned an interfaith certificate that allowed me to engage
+            </p>                       
+     </div>
+      </div>
+     </div>
+ </div>
+
+ <div class="container" id="videos">
+      <div class="row">
+          <h2 class="display-2">Videos</h2>
       </div>
 </div>
 
-
-
+ <div class="container" id="contact">
+      <div class="row">
+          <h2 class="display-2">Contact Info</h2>
+      </div>
+</div>
 
   </template>
-
   <script setup>
  
     </script>

@@ -3,10 +3,11 @@
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">
           <img
-            src="@/Images/logo.png"
-            alt="logo"
-            class="img-thumbnail"
-            loading="lazy"/>
+  src="@/Images/logo.png"
+  alt="logo"
+  class="logo"
+  loading="lazy"
+/>
         </router-link>
   
         <button
@@ -23,19 +24,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="/#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="/#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#photos">Photos</a>
+              <a class="nav-link" href="/#photos">Photos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#videos">Videos</a>
+              <a class="nav-link" href="/#videos">Videos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Info</a>
+              <a class="nav-link" href="/#contact">Contact Info</a>
             </li>
           </ul>
         </div>
