@@ -10,6 +10,16 @@ const routes = [
     path: '/casual',
     name: 'casual',
     component: () => import ('../components/CasualSection.vue')
+  },
+  {
+    path: '/traditional',
+    name: 'traditional',
+    component: () => import ('../components/TradSection.vue')
+  },
+  {
+    path: '/formal',
+    name: 'formal',
+    component: () => import ('../components/FormalSection.vue')
   }
 ]
 

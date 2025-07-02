@@ -36,33 +36,33 @@
               
     <div class="img">
         <div class="card cardAbout head">
-            <p class="text1">Head Girl</p>
+            <p class="text1">Casual</p>
            <router-link to="/casual">
              <button class="btn btn--primary">View</button> 
            </router-link>
 
         <p class="text2">
-           As Head Girl, I had the opportunity
+           Casual attire photoshoot.
         </p>
     </div>
             
     <div class="card cardAbout saiia">
-        <p class="text1">SAIIA</p>
-            <a href="https://anushqakandan.github.io/All-images/Images/saiia.jpg" target="_blank">
-              <button class="btn btn--primary">View</button>
-            </a>
+        <p class="text1">Traditional</p>
+           <router-link to="/traditional">
+             <button class="btn btn--primary">View</button> 
+           </router-link>
         <p class="text2">
-               I represented my school at the South African Institute of International Affairs
+              Traditional attire photoshoot
         </p>
    </div>
 
     <div class="card cardAbout inter">
-        <p class="text1">Interfaith</p>
-           <a href="https://anushqakandan.github.io/All-images/Images/interfaith.jpg" target="_blank">
-                <button class="btn btn--primary">View</button>
-            </a>
+        <p class="text1">Formal</p>
+          <router-link to="/formal">
+             <button class="btn btn--primary">View</button> 
+           </router-link>
             <p class="text2">
-                I earned an interfaith certificate that allowed me to engage
+                Formal attire photoshoot
             </p>                       
      </div>
       </div>
